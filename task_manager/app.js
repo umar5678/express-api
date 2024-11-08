@@ -2,6 +2,7 @@ import dotenv from "dotenv";
 dotenv.config();
 import express from "express";
 import { connectDB } from "./db/db_connect.js"
+import errorHandler from "./utils/errorHandler.js";
 
 import tasks from "./routes/tasks_routes.js";
 
@@ -14,6 +15,8 @@ app.use(express.json());
 // routes
 
 app.use("/api/v1/tasks", tasks);
+
+app.use(errorHandler)
 
 app.get("/", (req, res) => {
   res.send("Helo");
