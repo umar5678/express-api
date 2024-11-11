@@ -3,6 +3,7 @@ dotenv.config();
 import express from "express";
 import { connectDB } from "./db/db_connect.js"
 import errorHandler from "./utils/errorHandler.js";
+import {notFound }from "./middlewares/notFound.js";
 
 import tasks from "./routes/tasks_routes.js";
 
@@ -15,12 +16,9 @@ app.use(express.json());
 // routes
 
 app.use("/api/v1/tasks", tasks);
-
 app.use(errorHandler)
+app.use(notFound)
 
-app.get("/", (req, res) => {
-  res.send("Helo");
-});
 
 // app.get("/api/v1/tasks")         - get all tasks
 // app.post("/api/v1/tasks")        - create a new task
