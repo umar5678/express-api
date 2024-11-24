@@ -1,5 +1,6 @@
 import dotenv from "dotenv";
 dotenv.config();
+import cors from "cors"
 import express from "express";
 import { connectDB } from "./db/db_connect.js"
 import errorHandler from "./utils/errorHandler.js";
@@ -11,6 +12,7 @@ const app = express();
 const PORT = 3000;
 
 // middlewares
+app.use(cors())
 app.use(express.json());
 
 // routes
