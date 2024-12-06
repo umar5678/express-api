@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Modal = ({ task, isNewTask, onClose, onSave, onDelete }) => {
+const modal = ({ task, isNewTask, onClose, onSave, onDelete }) => {
   const [formData, setFormData] = useState(
     task || { name: "", description: "", completed: false }
   );
@@ -105,4 +105,4 @@ const Modal = ({ task, isNewTask, onClose, onSave, onDelete }) => {
   );
 };
 
-export default Modal;
+export default modal;

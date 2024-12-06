@@ -1,0 +1,166 @@
+ [
+  {
+    "name": "Modern Sofa Set",
+    "price": 999.99,
+    "featured": true,
+    "createdAt": "2023-11-22T10:35:22Z",
+    "company": "ikea",
+    "rating": 4.6
+  },
+  {
+    "name": "Classic Dining Table",
+    "price": 499.99,
+    "featured": false,
+    "createdAt": "2023-12-02T15:12:45Z",
+    "company": "liddy",
+    "rating": 4.6
+  },
+  {
+    "name": "Minimalist Bed Frame",
+    "price": 299.99,
+    "featured": true,
+    "createdAt": "2023-11-15T09:42:11Z",
+    "company": "caressa",
+    "rating": 4.6
+  },
+  {
+    "name": "Rustic Bookshelf",
+    "price": 199.99,
+    "featured": false,
+    "createdAt": "2023-12-04T11:37:58Z",
+    "company": "marcos",
+    "rating": 4.6
+  },
+  {
+    "name": "Stylish Coffee Table",
+    "price": 399.99,
+    "featured": true,
+    "createdAt": "2023-11-28T13:22:33Z",
+    "company": "ikea",
+    "rating": 4.2
+  },
+  {
+    "name": "Vintage Chair",
+    "price": 149.99,
+    "featured": false,
+    "createdAt": "2023-12-01T18:45:02Z",
+    "company": "liddy",
+    "rating": 4.6
+  },
+
+  {
+    "name": "Modern Sofa Set",
+    "price": 999.99,
+    "featured": true,
+    "createdAt": "2023-11-22T10:35:22Z",
+    "company": "ikea",
+    "rating": 4.6
+  },
+  {
+    "name": "Classic Dining Table",
+    "price": 499.99,
+    "featured": false,
+    "createdAt": "2023-12-02T15:12:45Z",
+    "company": "liddy"
+  },
+  {
+    "name": "Minimalist Bed Frame",
+    "price": 299.99,
+    "featured": true,
+    "createdAt": "2023-11-15T09:42:11Z",
+    "company": "caressa",
+    "rating": 4.6
+  },
+  {
+    "name": "Rustic Bookshelf",
+    "price": 199.99,
+    "featured": false,
+    "createdAt": "2023-12-04T11:37:58Z",
+    "company": "marcos",
+    "rating": 4.2
+  },
+  {
+    "name": "Stylish Coffee Table",
+    "price": 399.99,
+    "featured": true,
+    "createdAt": "2023-11-28T13:22:33Z",
+    "company": "ikea",
+    "rating": 4.6
+  },
+  {
+    "name": "Vintage Chair",
+    "price": 149.99,
+    "featured": false,
+    "createdAt": "2023-12-01T18:45:02Z",
+    "company": "liddy"
+  },
+  {
+    "name": "Sleek Desk",
+    "price": 249.99,
+    "featured": true,
+    "createdAt": "2023-11-25T14:15:32Z",
+    "company": "caressa",
+    "rating": 4.6
+  },
+  {
+    "name": "Industrial Side Table",
+    "price": 129.99,
+    "featured": false,
+    "createdAt": "2023-12-03T10:22:17Z",
+    "company": "marcos",
+    "rating": 4.2
+  },
+  {
+    "name": "Modern TV Stand",
+    "price": 349.99,
+    "featured": true,
+    "createdAt": "2023-11-20T16:48:59Z",
+    "company": "ikea",
+    "rating": 4.6
+  },
+  {
+    "name": "Elegant Dining Chair",
+    "price": 199.99,
+    "featured": false,
+    "createdAt": "2023-12-05T09:33:42Z",
+    "company": "liddy"
+  },
+  {
+    "name": "Platform Bed Frame",
+    "price": 399.99,
+    "featured": true,
+    "createdAt": "2023-11-27T11:27:01Z",
+    "company": "caressa",
+    "rating": 4.6
+  },
+  {
+    "name": "Vintage Dresser",
+    "price": 299.99,
+    "featured": false,
+    "createdAt": "2023-12-02T17:55:28Z",
+    "company": "marcos"
+  },
+  {
+    "name": "Scandinavian Armchair",
+    "price": 249.99,
+    "featured": true,
+    "createdAt": "2023-11-23T08:12:44Z",
+    "company": "ikea"
+  },
+  {
+    "name": "Mid-Century Console Table",
+    "price": 199.99,
+    "featured": false,
+    "createdAt": "2023-12-04T13:49:15Z",
+    "company": "liddy",
+    "rating": 4.6
+  },
+  {
+    "name": "Modern Bar Stool",
+    "price": 149.99,
+    "featured": true,
+    "createdAt": "2023-11-29T15:36:52Z",
+    "company": "caressa"
+  }
+]
+

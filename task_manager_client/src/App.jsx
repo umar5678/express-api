@@ -25,6 +25,7 @@ const App = () => {
         setError(err.message);
       });
     setLoading(false);
+    
   }, [isModalOpen]);
 
   const openModal = (task) => {
